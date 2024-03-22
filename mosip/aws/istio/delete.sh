@@ -11,7 +11,7 @@ NS=istio-system
 NS1=istio-operator
 
 echo Removing Istio components
-istioctl x uninstall --purge
+istioctl uninstall --purge
 
 echo deleting $NS and $NS1 namespaces
 
